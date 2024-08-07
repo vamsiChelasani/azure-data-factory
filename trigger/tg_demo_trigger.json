@@ -1,0 +1,24 @@
+{
+	"name": "tg_demo_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_execution_pipelin",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 15,
+				"startTime": "2024-08-07T23:46:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
